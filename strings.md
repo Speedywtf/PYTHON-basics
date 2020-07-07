@@ -117,7 +117,7 @@ print(txt.format(age))```
 
 #Some more string methods
 
-```
+```Some more methods:
 Method	        Description
 capitalize()	Converts the first character to upper case
 casefold()	Converts string into lower case
