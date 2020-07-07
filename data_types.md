@@ -8,9 +8,9 @@ DESCRIPTION
 
 Str: A String is a sequence of characters, these could be letters or numbers
 
-Int: An Integer is any whole number
+Int: An Integer is any whole number, positive or negative of unlimited length 
 
-float: A float is a number with decimal places 
+float: A float is a number, positive or negative with multiple decimal places 
 
 list: A list is a variable with multiple values that can be changed
 
@@ -121,6 +121,41 @@ x = byte(5)                               bytes
 x = bytearray(5)                          bytearray
 
 x = memoryview(bytes(5))                  memoryview```
+
+#Type Conversion 
+
+```You can convert one type to the other by specifying another data type: 
+
+x = 1 #int
+
+y = 2.8 #float
+
+z = 1j #complex
+
+#convert from int to float
+
+a = float(x)
+
+#convert float to int
+
+b = int(y)
+
+#convert int to complex 
+
+c = complex(x)```
+
+#Random Number
+
+```Python has a built in module named random that can be used to make random numbers: 
+
+import random
+
+print(random.radrange(1,10))
+
+OUTPUT: Any random number in between 1 and 10```
+
+
+
 
 
 
