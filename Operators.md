@@ -42,10 +42,17 @@ Operator	Example	Same As
 *=	        x *= 3	x = x * 3	
 /=	        x /= 3	x = x / 3	
 %=	        x %= 3	x = x % 3	
-//=	x //= 3	x = x // 3	
-**=	x **= 3	x = x ** 3	
-&=	x &= 3	x = x & 3	
-|=	x |= 3	x = x | 3	
-^=	x ^= 3	x = x ^ 3	
->>=	x >>= 3	x = x >> 3	
-<<=	x <<= 3	x = x << 3	
+//=	        x //= 3	x = x // 3	
+**=	        x **= 3	x = x ** 3	
+&=	        x &= 3	x = x & 3	
+|=	        x |= 3	x = x | 3	
+^=	        x ^= 3	x = x ^ 3	
+>>=	       x >>= 3	x = x >> 3	
+<<=	       x <<= 3	x = x << 3	
+
+Some additional operators are:
+
+x & 3: Tells you if the value is odd or even (1 = odd 2 = even) 
+
+
+
